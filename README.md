@@ -5,8 +5,8 @@
 * Nombre: Pedro Yunior Edubique Hernández
 * Matrícula: [2025-1422]
 * Asignatura: Programación Básica
-* Evaluación: Actividad individual
-* Profesor: Gamalier Reyes del Carmen
+* Actividad: Nomina Quincenal
+* Profesor: Gamalier Reyes de Carmen
 
 ## 2. Descripción del Programa
 
@@ -54,4 +54,17 @@ El sistema muestra los resultados en pantalla mediante los siguientes controles:
    * Total neto (`lblNeto`): Monto total a pagar a los empleados.
 
 ## 6. Capturas de Pantalla del Programa en Ejecución
+
+<img width="551" height="347" alt="image" src="https://github.com/user-attachments/assets/2e870b8d-e430-4240-8ca3-c062f3039fb4" />
+
+<img width="549" height="350" alt="image" src="https://github.com/user-attachments/assets/3a524ad3-fedf-4d16-a722-39f13bcc5f2f" />
+
+<img width="1103" height="698" alt="image" src="https://github.com/user-attachments/assets/b704bb3b-095a-4614-800d-45febeaab1e0" />
+
+<img width="1108" height="695" alt="image" src="https://github.com/user-attachments/assets/47551c84-100d-448d-839b-af0bd3e4ff1e" />
+
+<img width="548" height="345" alt="image" src="https://github.com/user-attachments/assets/0ff1264c-6aeb-466e-a21c-25f38bbfa2c9" />
+
+
+
 

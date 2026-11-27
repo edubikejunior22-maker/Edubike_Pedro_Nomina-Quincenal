@@ -1,0 +1,422 @@
+﻿namespace Pedro_Nominal_Quincenal
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        private void InitializeComponent()
+        {
+            this.grpEmpleado = new System.Windows.Forms.GroupBox();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.txtEmpleado = new System.Windows.Forms.TextBox();
+            this.lblContrato = new System.Windows.Forms.Label();
+            this.rdbFijo = new System.Windows.Forms.RadioButton();
+            this.rdbTemporal = new System.Windows.Forms.RadioButton();
+            this.grpPago = new System.Windows.Forms.GroupBox();
+            this.lblCargo = new System.Windows.Forms.Label();
+            this.cmbCargo = new System.Windows.Forms.ComboBox();
+            this.lblHoras = new System.Windows.Forms.Label();
+            this.txtHoras = new System.Windows.Forms.TextBox();
+            this.chkTransporte = new System.Windows.Forms.CheckBox();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.grpNomina = new System.Windows.Forms.GroupBox();
+            this.lstNomina = new System.Windows.Forms.ListBox();
+            this.grpResumen = new System.Windows.Forms.GroupBox();
+            this.lblEmpleadosTxt = new System.Windows.Forms.Label();
+            this.lblBrutoTxt = new System.Windows.Forms.Label();
+            this.lblDeduccionesTxt = new System.Windows.Forms.Label();
+            this.lblNetoTxt = new System.Windows.Forms.Label();
+            this.lblEmpleados = new System.Windows.Forms.Label();
+            this.lblBruto = new System.Windows.Forms.Label();
+            this.lblDeducciones = new System.Windows.Forms.Label();
+            this.lblNeto = new System.Windows.Forms.Label();
+            this.btnResumen = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.grpEmpleado.SuspendLayout();
+            this.grpPago.SuspendLayout();
+            this.grpNomina.SuspendLayout();
+            this.grpResumen.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // grpEmpleado
+            // 
+            this.grpEmpleado.Controls.Add(this.lblNombre);
+            this.grpEmpleado.Controls.Add(this.txtEmpleado);
+            this.grpEmpleado.Controls.Add(this.lblContrato);
+            this.grpEmpleado.Controls.Add(this.rdbFijo);
+            this.grpEmpleado.Controls.Add(this.rdbTemporal);
+            this.grpEmpleado.Location = new System.Drawing.Point(19, 20);
+            this.grpEmpleado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpEmpleado.Name = "grpEmpleado";
+            this.grpEmpleado.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpEmpleado.Size = new System.Drawing.Size(463, 160);
+            this.grpEmpleado.TabIndex = 0;
+            this.grpEmpleado.TabStop = false;
+            this.grpEmpleado.Text = "Datos del empleado";
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(19, 51);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(69, 20);
+            this.lblNombre.TabIndex = 0;
+            this.lblNombre.Text = "Nombre:";
+            // 
+            // txtEmpleado
+            // 
+            this.txtEmpleado.Location = new System.Drawing.Point(109, 47);
+            this.txtEmpleado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmpleado.Name = "txtEmpleado";
+            this.txtEmpleado.Size = new System.Drawing.Size(327, 26);
+            this.txtEmpleado.TabIndex = 1;
+            // 
+            // lblContrato
+            // 
+            this.lblContrato.AutoSize = true;
+            this.lblContrato.Location = new System.Drawing.Point(19, 107);
+            this.lblContrato.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblContrato.Name = "lblContrato";
+            this.lblContrato.Size = new System.Drawing.Size(75, 20);
+            this.lblContrato.TabIndex = 2;
+            this.lblContrato.Text = "Contrato:";
+            // 
+            // rdbFijo
+            // 
+            this.rdbFijo.AutoSize = true;
+            this.rdbFijo.Checked = true;
+            this.rdbFijo.Location = new System.Drawing.Point(109, 104);
+            this.rdbFijo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbFijo.Name = "rdbFijo";
+            this.rdbFijo.Size = new System.Drawing.Size(59, 24);
+            this.rdbFijo.TabIndex = 3;
+            this.rdbFijo.TabStop = true;
+            this.rdbFijo.Text = "Fijo";
+            this.rdbFijo.UseVisualStyleBackColor = true;
+            // 
+            // rdbTemporal
+            // 
+            this.rdbTemporal.AutoSize = true;
+            this.rdbTemporal.Location = new System.Drawing.Point(238, 104);
+            this.rdbTemporal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbTemporal.Name = "rdbTemporal";
+            this.rdbTemporal.Size = new System.Drawing.Size(100, 24);
+            this.rdbTemporal.TabIndex = 4;
+            this.rdbTemporal.Text = "Temporal";
+            this.rdbTemporal.UseVisualStyleBackColor = true;
+            // 
+            // grpPago
+            // 
+            this.grpPago.Controls.Add(this.lblCargo);
+            this.grpPago.Controls.Add(this.cmbCargo);
+            this.grpPago.Controls.Add(this.lblHoras);
+            this.grpPago.Controls.Add(this.txtHoras);
+            this.grpPago.Controls.Add(this.chkTransporte);
+            this.grpPago.Controls.Add(this.btnRegistrar);
+            this.grpPago.Location = new System.Drawing.Point(19, 193);
+            this.grpPago.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpPago.Name = "grpPago";
+            this.grpPago.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpPago.Size = new System.Drawing.Size(463, 352);
+            this.grpPago.TabIndex = 1;
+            this.grpPago.TabStop = false;
+            this.grpPago.Text = "Registro de pago";
+            // 
+            // lblCargo
+            // 
+            this.lblCargo.AutoSize = true;
+            this.lblCargo.Location = new System.Drawing.Point(19, 51);
+            this.lblCargo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCargo.Name = "lblCargo";
+            this.lblCargo.Size = new System.Drawing.Size(56, 20);
+            this.lblCargo.TabIndex = 0;
+            this.lblCargo.Text = "Cargo:";
+            // 
+            // cmbCargo
+            // 
+            this.cmbCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCargo.FormattingEnabled = true;
+            this.cmbCargo.Location = new System.Drawing.Point(109, 47);
+            this.cmbCargo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbCargo.Name = "cmbCargo";
+            this.cmbCargo.Size = new System.Drawing.Size(327, 28);
+            this.cmbCargo.TabIndex = 1;
+            // 
+            // lblHoras
+            // 
+            this.lblHoras.AutoSize = true;
+            this.lblHoras.Location = new System.Drawing.Point(19, 115);
+            this.lblHoras.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHoras.Name = "lblHoras";
+            this.lblHoras.Size = new System.Drawing.Size(242, 20);
+            this.lblHoras.TabIndex = 2;
+            this.lblHoras.Text = "Horas trabajadas en la quincena:";
+            // 
+            // txtHoras
+            // 
+            this.txtHoras.Location = new System.Drawing.Point(19, 154);
+            this.txtHoras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHoras.Name = "txtHoras";
+            this.txtHoras.Size = new System.Drawing.Size(153, 26);
+            this.txtHoras.TabIndex = 3;
+            // 
+            // chkTransporte
+            // 
+            this.chkTransporte.AutoSize = true;
+            this.chkTransporte.Location = new System.Drawing.Point(19, 204);
+            this.chkTransporte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkTransporte.Name = "chkTransporte";
+            this.chkTransporte.Size = new System.Drawing.Size(250, 24);
+            this.chkTransporte.TabIndex = 4;
+            this.chkTransporte.Text = "Recibe incentivo de transporte";
+            this.chkTransporte.UseVisualStyleBackColor = true;
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Location = new System.Drawing.Point(19, 247);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(424, 47);
+            this.btnRegistrar.TabIndex = 5;
+            this.btnRegistrar.Text = "Registrar empleado";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            // 
+            // grpNomina
+            // 
+            this.grpNomina.Controls.Add(this.lstNomina);
+            this.grpNomina.Location = new System.Drawing.Point(501, 20);
+            this.grpNomina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpNomina.Name = "grpNomina";
+            this.grpNomina.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpNomina.Size = new System.Drawing.Size(456, 287);
+            this.grpNomina.TabIndex = 2;
+            this.grpNomina.TabStop = false;
+            this.grpNomina.Text = "Nómina registrada";
+            // 
+            // lstNomina
+            // 
+            this.lstNomina.FormattingEnabled = true;
+            this.lstNomina.ItemHeight = 20;
+            this.lstNomina.Location = new System.Drawing.Point(19, 33);
+            this.lstNomina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstNomina.Name = "lstNomina";
+            this.lstNomina.Size = new System.Drawing.Size(417, 224);
+            this.lstNomina.TabIndex = 0;
+            // 
+            // grpResumen
+            // 
+            this.grpResumen.Controls.Add(this.lblEmpleadosTxt);
+            this.grpResumen.Controls.Add(this.lblBrutoTxt);
+            this.grpResumen.Controls.Add(this.lblDeduccionesTxt);
+            this.grpResumen.Controls.Add(this.lblNetoTxt);
+            this.grpResumen.Controls.Add(this.lblEmpleados);
+            this.grpResumen.Controls.Add(this.lblBruto);
+            this.grpResumen.Controls.Add(this.lblDeducciones);
+            this.grpResumen.Controls.Add(this.lblNeto);
+            this.grpResumen.Location = new System.Drawing.Point(501, 320);
+            this.grpResumen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpResumen.Name = "grpResumen";
+            this.grpResumen.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpResumen.Size = new System.Drawing.Size(456, 225);
+            this.grpResumen.TabIndex = 3;
+            this.grpResumen.TabStop = false;
+            this.grpResumen.Text = "Resumen";
+            // 
+            // lblEmpleadosTxt
+            // 
+            this.lblEmpleadosTxt.AutoSize = true;
+            this.lblEmpleadosTxt.Location = new System.Drawing.Point(19, 33);
+            this.lblEmpleadosTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEmpleadosTxt.Name = "lblEmpleadosTxt";
+            this.lblEmpleadosTxt.Size = new System.Drawing.Size(176, 20);
+            this.lblEmpleadosTxt.TabIndex = 0;
+            this.lblEmpleadosTxt.Text = "Empleados registrados:";
+            // 
+            // lblBrutoTxt
+            // 
+            this.lblBrutoTxt.AutoSize = true;
+            this.lblBrutoTxt.Location = new System.Drawing.Point(19, 65);
+            this.lblBrutoTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBrutoTxt.Name = "lblBrutoTxt";
+            this.lblBrutoTxt.Size = new System.Drawing.Size(89, 20);
+            this.lblBrutoTxt.TabIndex = 1;
+            this.lblBrutoTxt.Text = "Total bruto:";
+            // 
+            // lblDeduccionesTxt
+            // 
+            this.lblDeduccionesTxt.AutoSize = true;
+            this.lblDeduccionesTxt.Location = new System.Drawing.Point(19, 97);
+            this.lblDeduccionesTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDeduccionesTxt.Name = "lblDeduccionesTxt";
+            this.lblDeduccionesTxt.Size = new System.Drawing.Size(142, 20);
+            this.lblDeduccionesTxt.TabIndex = 2;
+            this.lblDeduccionesTxt.Text = "Total deducciones:";
+            // 
+            // lblNetoTxt
+            // 
+            this.lblNetoTxt.AutoSize = true;
+            this.lblNetoTxt.Location = new System.Drawing.Point(19, 129);
+            this.lblNetoTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNetoTxt.Name = "lblNetoTxt";
+            this.lblNetoTxt.Size = new System.Drawing.Size(84, 20);
+            this.lblNetoTxt.TabIndex = 3;
+            this.lblNetoTxt.Text = "Total neto:";
+            // 
+            // lblEmpleados
+            // 
+            this.lblEmpleados.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblEmpleados.Location = new System.Drawing.Point(244, 33);
+            this.lblEmpleados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEmpleados.Name = "lblEmpleados";
+            this.lblEmpleados.Size = new System.Drawing.Size(193, 24);
+            this.lblEmpleados.TabIndex = 4;
+            this.lblEmpleados.Text = "0";
+            this.lblEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblBruto
+            // 
+            this.lblBruto.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblBruto.Location = new System.Drawing.Point(244, 65);
+            this.lblBruto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBruto.Name = "lblBruto";
+            this.lblBruto.Size = new System.Drawing.Size(193, 24);
+            this.lblBruto.TabIndex = 5;
+            this.lblBruto.Text = "RD$ 0.00";
+            this.lblBruto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblDeducciones
+            // 
+            this.lblDeducciones.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblDeducciones.Location = new System.Drawing.Point(244, 97);
+            this.lblDeducciones.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDeducciones.Name = "lblDeducciones";
+            this.lblDeducciones.Size = new System.Drawing.Size(193, 24);
+            this.lblDeducciones.TabIndex = 6;
+            this.lblDeducciones.Text = "RD$ 0.00";
+            this.lblDeducciones.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblNeto
+            // 
+            this.lblNeto.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblNeto.Location = new System.Drawing.Point(244, 129);
+            this.lblNeto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNeto.Name = "lblNeto";
+            this.lblNeto.Size = new System.Drawing.Size(193, 24);
+            this.lblNeto.TabIndex = 7;
+            this.lblNeto.Text = "RD$ 0.00";
+            this.lblNeto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnResumen
+            // 
+            this.btnResumen.Location = new System.Drawing.Point(19, 572);
+            this.btnResumen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnResumen.Name = "btnResumen";
+            this.btnResumen.Size = new System.Drawing.Size(296, 47);
+            this.btnResumen.TabIndex = 4;
+            this.btnResumen.Text = "Mostrar resumen";
+            this.btnResumen.UseVisualStyleBackColor = true;
+            this.btnResumen.Click += new System.EventHandler(this.btnResumen_Click);
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(339, 572);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(296, 47);
+            this.btnLimpiar.TabIndex = 5;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(661, 572);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(296, 47);
+            this.btnSalir.TabIndex = 6;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1109, 667);
+            this.Controls.Add(this.grpEmpleado);
+            this.Controls.Add(this.grpPago);
+            this.Controls.Add(this.grpNomina);
+            this.Controls.Add(this.grpResumen);
+            this.Controls.Add(this.btnResumen);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnSalir);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Nómina Quincenal";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.grpEmpleado.ResumeLayout(false);
+            this.grpEmpleado.PerformLayout();
+            this.grpPago.ResumeLayout(false);
+            this.grpPago.PerformLayout();
+            this.grpNomina.ResumeLayout(false);
+            this.grpResumen.ResumeLayout(false);
+            this.grpResumen.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox grpEmpleado;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.TextBox txtEmpleado;
+        private System.Windows.Forms.Label lblContrato;
+        private System.Windows.Forms.RadioButton rdbFijo;
+        private System.Windows.Forms.RadioButton rdbTemporal;
+        private System.Windows.Forms.GroupBox grpPago;
+        private System.Windows.Forms.Label lblCargo;
+        private System.Windows.Forms.ComboBox cmbCargo;
+        private System.Windows.Forms.Label lblHoras;
+        private System.Windows.Forms.TextBox txtHoras;
+        private System.Windows.Forms.CheckBox chkTransporte;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.GroupBox grpNomina;
+        private System.Windows.Forms.ListBox lstNomina;
+        private System.Windows.Forms.GroupBox grpResumen;
+        private System.Windows.Forms.Label lblEmpleadosTxt;
+        private System.Windows.Forms.Label lblBrutoTxt;
+        private System.Windows.Forms.Label lblDeduccionesTxt;
+        private System.Windows.Forms.Label lblNetoTxt;
+        private System.Windows.Forms.Label lblEmpleados;
+        private System.Windows.Forms.Label lblBruto;
+        private System.Windows.Forms.Label lblDeducciones;
+        private System.Windows.Forms.Label lblNeto;
+        private System.Windows.Forms.Button btnResumen;
+        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnSalir;
+    }
+}
